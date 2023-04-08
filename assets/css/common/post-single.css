@@ -668,3 +668,18 @@ h6:hover .anchor {
 .tweet-ref blockquote a {
     text-decoration: none;
 }
+
+.callout {
+    background-color: var(--code-bg);
+    border-radius: var(--radius);
+    padding: 1em;
+}
+
+.callout-header {
+    display: flex;
+}
+
+.callout-icon {
+    size: 1em;
+    margin-right: 10px;
+}
