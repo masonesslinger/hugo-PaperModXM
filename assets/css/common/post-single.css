@@ -669,6 +669,8 @@ h6:hover .anchor {
     text-decoration: none;
 }
 
+/* General callout style */
+
 .callout {
     background-color: var(--code-bg);
     border-radius: var(--radius);
@@ -682,5 +684,16 @@ h6:hover .anchor {
 .callout-icon {
     height: 1em;
     width: 1em;
+    align-content: center;
     margin-right: 20px;
+}
+
+/* Specific callout styles */
+
+.callout#info {
+    background-color: #4169E120;
+}
+
+#info .callout-header {
+    color: #4169E1;
 }
