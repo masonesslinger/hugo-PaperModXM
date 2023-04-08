@@ -707,3 +707,11 @@ h6:hover .anchor {
 #example .callout-header {
     color: #F08080;
 }
+
+.callout#note {
+    background-color: #DAA52020;
+}
+
+#note .callout-header {
+    color: #DAA520;
+}

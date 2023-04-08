@@ -29,3 +29,11 @@ class HelloWorld {
 }
 ```
 {{< /callout >}}
+
+{{< callout "note" "Note Header" >}}
+- **This**
+- *is*
+- a
+- `note`
+- callout
+{{< /callout >}}
