@@ -680,6 +680,7 @@ h6:hover .anchor {
 
 .callout-header {
     display: flex;
+    margin-bottom: 10px;
 }
 
 .callout-icon {
@@ -697,4 +698,12 @@ h6:hover .anchor {
 
 #info .callout-header {
     color: #4169E1;
+}
+
+.callout#example {
+    background-color: #F0808020;
+}
+
+#example .callout-header {
+    color: #F08080;
 }

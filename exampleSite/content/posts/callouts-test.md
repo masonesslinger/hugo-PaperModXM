@@ -13,7 +13,7 @@ This is an info callout
 {{< /callout >}}
 
 {{< callout "checklist" "Checklist Header" >}}
-- [ ] This
+- [x] This
 - [ ] is
 - [ ] a
 - [ ] checklist
