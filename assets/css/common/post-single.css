@@ -680,6 +680,7 @@ h6:hover .anchor {
 }
 
 .callout-icon {
-    size: 1em;
-    margin-right: 10px;
+    height: 1em;
+    width: 1em;
+    margin-right: 20px;
 }
