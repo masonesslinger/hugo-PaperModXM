@@ -1,0 +1,13 @@
+{{ $callouttype := .Get 0 }}
+
+<div class="callout">
+    <div class="callout-header" id="{{ $callouttype }}">
+        <div class="callout-icon" id="{{ $callouttype }}-icon">
+            {{ index .Site.Data.callouts $callouttype | markdownify }}
+        </div>
+        <div class="callout-title"><strong>{{ .Get 1 }}</strong></div>
+    </div>
+    <div class="callout-inner">
+        {{ .Get 2 | markdownify}}
+    </div>
+</div>
