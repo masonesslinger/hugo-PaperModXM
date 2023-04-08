@@ -674,7 +674,8 @@ h6:hover .anchor {
 .callout {
     background-color: var(--code-bg);
     border-radius: var(--radius);
-    padding: 1em;
+    padding: 15px;
+    margin: var(--content-gap) auto;
 }
 
 .callout-header {
