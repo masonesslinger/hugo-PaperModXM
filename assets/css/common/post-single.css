@@ -374,6 +374,10 @@ h6:hover .anchor {
     font-weight: 500;
 }
 
+.toc details[open] .details {
+    border-bottom: 1px solid var(--primary);
+}
+
 .toc .inner {
     padding: 10px 15px 5px 35px;
 }
