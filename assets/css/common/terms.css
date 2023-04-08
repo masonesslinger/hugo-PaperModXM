@@ -9,7 +9,11 @@
     padding: 3px 10px;
     background: var(--tertiary-bg);
     border-radius: 6px;
-    transition: transform 0.1s;
+    transition: var(--link-transition);
+}
+
+.terms-tags a:hover {
+    background-color: var(--link-background-color);
 }
 
 .terms-tags a:active {
