@@ -9,31 +9,21 @@ This is an info callout
 {{< /callout >}}
 
 {{< callout "quote" "Quote Header" >}}
-"This is a quote callout"
+This is a quote callout
 {{< /callout >}}
 
 {{< callout "checklist" "Checklist Header" >}}
-- [x] This
-- [ ] is
-- [ ] a
-- [ ] checklist
-- [ ] callout
+This is a checklist callout
 {{< /callout >}}
 
 {{< callout "example" "Example Header" >}}
-```java
-class HelloWorld {
-    public static void main(String args[]) {
-        System.out.println("This is an example callout");
-    }
-}
-```
+This is an example callout
 {{< /callout >}}
 
 {{< callout "note" "Note Header" >}}
-- **This**
-- *is*
-- a
-- `note`
-- callout
+This is a note callout
+{{< /callout >}}
+
+{{< callout "tip" "Tip Header" >}}
+This is a tip callout
 {{< /callout >}}

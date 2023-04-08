@@ -715,3 +715,11 @@ h6:hover .anchor {
 #note .callout-header {
     color: #DAA520;
 }
+
+.callout#tip {
+    background-color: #9932CC20;
+}
+
+#tip .callout-header {
+    color: #9932CC;
+}
