@@ -8,7 +8,7 @@
     padding: var(--gap);
     background: var(--entry);
     border-radius: var(--radius);
-    border: 1px solid var(--border);
+    border: 2px solid var(--border);
     transition: var(--link-transition);
 }
 .post-entry:hover {
