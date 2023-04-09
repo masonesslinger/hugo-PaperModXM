@@ -708,6 +708,14 @@ h6:hover .anchor {
     color: #7B68EE
 }
 
+.callout#checklist {
+    background-color: #00CED120;
+}
+
+#checklist .callout-header {
+    color: 	#00CED1;
+}
+
 .callout#example {
     background-color: #F0808020;
 }
