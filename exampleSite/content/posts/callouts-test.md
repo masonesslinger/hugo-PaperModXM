@@ -27,3 +27,7 @@ This is a note callout
 {{< callout "tip" "Tip Header" >}}
 This is a tip callout
 {{< /callout >}}
+
+{{< callout "question" "Question Header" >}}
+This is a question callout
+{{< /callout >}}

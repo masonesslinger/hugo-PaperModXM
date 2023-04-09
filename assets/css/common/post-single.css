@@ -723,3 +723,11 @@ h6:hover .anchor {
 #tip .callout-header {
     color: #9932CC;
 }
+
+.callout#question {
+    background-color: #228B2220;
+}
+
+#question .callout-header {
+    color: #228B22;
+}
