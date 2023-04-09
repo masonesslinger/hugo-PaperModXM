@@ -25,3 +25,5 @@ Currently, the supported types are:
 
 > As more default callout types are added, it is likely that the style of the current callouts will change.
 
+**TODO:**
+- [ ] Add foldable callouts
