@@ -70,6 +70,9 @@
 /* make zoom overlay and image higher than toc */
 .medium-zoom-overlay {
     z-index: 2;
+    /* @TODO Modify JS script to set background directly instead of using !important */
+    background: var(--header-color) !important;
+    backdrop-filter: blur(6px);
 }
 .medium-zoom-image--opened {
     z-index: 3;
