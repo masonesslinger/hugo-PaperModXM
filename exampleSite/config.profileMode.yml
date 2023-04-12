@@ -1,7 +1,7 @@
 baseURL: "https://reorx.github.io/hugo-PaperModX/"
 title: PaperModX
 paginate: 5
-theme: PaperModX
+theme: hugo-PaperModZ
 # NOTE remove this line if you copy exampleSite outof hugo-PaperModX
 themesdir: ../..
 
@@ -20,7 +20,7 @@ params:
   mainSections:
     - docs
     - posts
-  disableAnchoredHeadings: true
+  disableAnchoredHeadings: false
   images: ["cover.png"]
   DateFormat: "2006-01-02"
   useCustomAnalytics: true

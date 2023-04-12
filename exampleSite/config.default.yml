@@ -37,7 +37,7 @@ params:
   ShowCodeCopyButtons: true
   ShowToc: true
   TocOpen: true
-  TocSide: "right"
+  TocSide: "left"
   EnableInstantClick: true
   EnableImageZoom: true
 
