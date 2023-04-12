@@ -31,3 +31,7 @@ This is a tip callout
 {{< callout "question" "Question Header" >}}
 This is a question callout
 {{< /callout >}}
+
+{{< foldable-callout "info" "Fold" >}}
+This is a test of foldable callouts
+{{< /foldable-callout >}}
