@@ -1,13 +1,29 @@
 {{ $callouttype := .Get 0 }}
 
+{{ if .Get 2 }}
+<details class="foldable-callout callout" id="{{ $callouttype }}">
+{{ else }}
 <div class="callout" id="{{ $callouttype }}">
+{{ end }}
+    {{ if .Get 2 }}
+    <summary class="callout-summary callout-header">
+    {{ else }}
     <div class="callout-header">
+    {{ end }}
         <div class="callout-icon" id="{{ $callouttype }}-icon">
             {{ index .Site.Data.callouts $callouttype | markdownify }}
         </div>
         <div class="callout-title"><strong>{{ .Get 1 }}</strong></div>
+    {{ if .Get 2}}
+    </summary>
+    {{ else }}
     </div>
+    {{ end }}
     <div class="callout-inner">
         {{ .Inner | markdownify}}
     </div>
+{{ if .Get 2 }}
+</details>
+{{ else }}
 </div>
+{{ end }}
