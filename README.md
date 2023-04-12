@@ -28,3 +28,4 @@ Currently, the supported types are:
 **TODO:**
 - [x] Add foldable callouts
   - [ ] Add animation when expanding and collapsing
+  - [ ] Optimize conditional hugo code
