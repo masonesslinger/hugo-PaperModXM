@@ -27,3 +27,4 @@ Currently, the supported types are:
 
 **TODO:**
 - [ ] Add foldable callouts
+  - [ ] Add animation when expanding and collapsing
