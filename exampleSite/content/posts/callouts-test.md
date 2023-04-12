@@ -32,6 +32,19 @@ This is a tip callout
 This is a question callout
 {{< /callout >}}
 
-{{< foldable-callout "info" "Fold" >}}
-This is a test of foldable callouts
-{{< /foldable-callout >}}
+{{< callout "example" "I need this to be foldable" "fold" >}}
+> Here is a list of points that don't need to be shown.
+
+The user can expand this if they want but it's best not to let this content take up space on the page by default.
+
+```java
+class HelloWorld {
+    public static void main(String[] args) {
+        System.out.println("Hello, World!");
+    }
+}
+```
+
+- By the way
+- Callouts support markdown
+{{< /callout >}}
