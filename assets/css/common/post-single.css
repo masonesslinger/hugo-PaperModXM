@@ -677,6 +677,24 @@ h6:hover .anchor {
     margin: var(--content-gap) auto;
 }
 
+details.foldable-callout summary {
+    margin-bottom: 0px;
+    cursor: pointer;
+}
+
+details[open].foldable-callout summary {
+    margin-bottom: 10px;
+}
+
+details.foldable-callout summary::after {
+    content: "►";
+    margin-left: 5px;
+}
+
+details[open].foldable-callout summary::after {
+    content: "▼";
+}
+
 .callout-header {
     display: flex;
     margin-bottom: 10px;
