@@ -11,7 +11,7 @@
     <div class="callout-header">
     {{ end }}
         <div class="callout-icon" id="{{ $callouttype }}-icon">
-            {{ index .Site.Data.callouts $callouttype | markdownify }}
+            {{ index .Site.Data.callouts $callouttype | safeHTML }}
         </div>
         <div class="callout-title"><strong>{{ .Get 1 }}</strong></div>
     {{ if .Get 2}}
